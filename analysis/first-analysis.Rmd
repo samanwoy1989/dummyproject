@@ -9,10 +9,12 @@ editor_options:
 
 ## Introduction
 
+I am trying to change the image but it is still taking the first image generated. this means the caching is on.
+
 ```{r, include=TRUE, cache=FALSE, fig.align='left', fig.cap= "A dummy boxplot trying for project testing"}
 library(tidyverse)
 dat = as_tibble(mtcars)
-mtcars$gear = factor(mtcars$gear)
+dat$gear = factor(mtcars$gear)
 ggplot(dat, aes(x=gear, y=mpg, fill=gear))+
   geom_boxplot()+
   ggtitle("Boxplot of mpg vs gear")+
