@@ -21,3 +21,9 @@ ggplot(dat, aes(x=gear, y=mpg, fill=gear))+
   theme(legend.title = element_blank())
 ```
 
+
+```{r, fig.cap= "Finonacci sequene"}
+knitr::include_graphics("~/dummyproject/images/fibonacci-sequence-golden-ratio-mathematics-spiral-square-black-background-numbers-geometry-monochrome-inception.jpg")
+```
+
+
