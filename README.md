@@ -1,4 +1,4 @@
-# dummyproject
+# dummyproject testing workflowr
 
 A [workflowr][] project.
 
